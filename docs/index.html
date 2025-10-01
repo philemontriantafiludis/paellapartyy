@@ -5,49 +5,48 @@
   <title>Paella-Party</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
-      font-family: sans-serif;
-      color: #000;
-      text-align: center;
-    }
     body {
-      /* Flyer als Hintergrund */
-      background-image: url("paellaparty.png");
-      background-repeat: no-repeat;
-      background-position: top center;
-      background-size: contain;   /* Bild vollständig sichtbar */
-      background-color: #ffffff;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-end;  /* Text unter dem Bild */
+      margin: 40px;
+      font-family: sans-serif;
+      text-align: center;
+      background-color: #ff6200; /* Hintergrundfarbe wie Flyer */
+      color: white; /* Textfarbe für besseren Kontrast */
     }
-    .info {
-      background: rgba(255,255,255,0.9); /* halbtransparenter Hintergrund für Lesbarkeit */
-      padding: 20px;
+    img {
+      max-width: 90%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+    p {
+      font-size: 18px;
+      margin-top: 20px;
+      line-height: 1.5;
     }
     a {
-      color: blue;
+      color: #ffffff;
+      font-weight: bold;
       text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <div class="info">
-    <p style="font-size:18px;">
-      Wir laden euch herzlich zu unserer PaellaParty am 11.10.2025 ein!<br>
-      Es soll wie auf einem Straßenfest sein: kommt vorbei, setzt euch gemütlich dazu, genießt leckere Paella und Getränke. <br>
-      Am Abend lassen wir die Party gemeinsam am Lagerfeuer ausklingen. Damit wir besser planen können, findest du unten einen Link zu einer Whatsappgruppe. (kein Spam, nur Infos)<br>
-      Alle wichtigen Infos findest du direkt im Flyer.
-    </p>
+  <!-- Flyer oben -->
+  <img src="paellaparty.png" alt="Flyer">
 
-    <p style="margin-top:20px; font-size:18px;">
-      <a href="https://chat.whatsapp.com/IePnhY4rF5T5hbJ2ArMzIJ" target="_blank">
-        Hier mehr Infos
-      </a>
-    </p>
-  </div>
+  <!-- Text darunter -->
+  <p>
+    Wir laden euch herzlich zu unserer PaellaParty am 11.10.2025 ein!<br>
+    Es soll wie auf einem Straßenfest sein: kommt vorbei, setzt euch gemütlich dazu, genießt leckere Paella und Getränke.<br>
+    Am Abend lassen wir die Party gemeinsam am Lagerfeuer ausklingen. Damit wir besser planen können, findest du unten einen Link zu einer Whatsappgruppe (kein Spam, nur Infos).<br>
+    Alle wichtigen Infos findest du direkt im Flyer.
+  </p>
+
+  <!-- WhatsApp-Link -->
+  <p>
+    <a href="https://chat.whatsapp.com/IePnhY4rF5T5hbJ2ArMzIJ" target="_blank">
+      Komm in die Gruppe 
+    </a>
+  </p>
 </body>
 </html>
